@@ -16,6 +16,7 @@ module MainModule{
             return this.$http.get("https://haveibeenpwned.com/api/v2/breachedaccount/" + address);    
         }
 
+        // this query() function is a fake data for testing purpose; This should be replaced by mocked API from apiary.io or real.
         query() : any {
             return [
                 {

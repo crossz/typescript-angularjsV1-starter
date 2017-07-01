@@ -34,4 +34,6 @@ Otherwise, `tsc -p .` will compile the 'project' dir.
 
 ```
 npm install -g http-server
+
+http-server -o
 ```
