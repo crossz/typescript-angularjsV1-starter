@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "module": "none",
+        "target": "ES5"
+    },
+    "files": [
+        "app.ts"
+    ],
+    "include": [
+        "**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "**/*.spec.ts"
+    ]
+}
