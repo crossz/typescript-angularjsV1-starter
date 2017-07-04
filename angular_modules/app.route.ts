@@ -17,7 +17,7 @@ module MainModule {
                 controllerAs: "vm"
             })
             .otherwise({
-                redirectTo: "/search"
+                redirectTo: "/query"
             });
     }
 
