@@ -15,7 +15,7 @@ var MainModule;
             controllerAs: "vm"
         })
             .otherwise({
-            redirectTo: "/search"
+            redirectTo: "/query"
         });
     }
     routeConfig.$inject = ["$routeProvider"];
