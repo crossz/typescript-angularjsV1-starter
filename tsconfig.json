@@ -3,11 +3,11 @@
         "module": "none",
         "target": "ES5"
     },
-    "files": [
-        "angular_modules/app.module.ts"
-    ],
+    // "files": [
+    //     "angular_modules/app.module.ts"
+    // ],
     "include": [
-        "**/*"
+        "angular_modules/**/*"
     ],
     "exclude": [
         "node_modules",
